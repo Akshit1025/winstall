@@ -1,0 +1,27 @@
+
+
+.intro {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+    h1{
+        max-width: 600px;
+        font-size: 45px;
+    }
+}
+
+
+.selectedApps{
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+@media(max-width: 590px){
+    .intro{
+        padding-top: 0px !important;
+
+        textarea{
+            width: auto !important;
+        }
+    }
+}
